@@ -48,7 +48,7 @@ const AppContexProvider = (props)=>{
     }
 
     const value = {
-        doctors,
+        doctors, getDoctorsData,
         currencySymbol,
         token, setToken,
         backendUrl,
@@ -58,7 +58,7 @@ const AppContexProvider = (props)=>{
 
     useEffect(()=>{
         getDoctorsData()
-    },[doctors])
+    },[])
 
     useEffect(()=>{
         if (token) {
@@ -66,7 +66,7 @@ const AppContexProvider = (props)=>{
         } else {
             setUserData(false)
         }
-    },{token})
+    },[token])
 
     return(
         <AppContext.Provider value={value}>
