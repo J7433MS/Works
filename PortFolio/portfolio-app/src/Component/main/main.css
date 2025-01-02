@@ -1,0 +1,208 @@
+.top_section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    background-image: url(../../assets/img/BackgroundImg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.navbar_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    padding: 20px 0;
+}
+.navbar_title{
+    width: 30%;
+}
+.navbar_title h1{
+    font-family: Hakgyoansim-B;
+    font-size: 34px;
+    cursor: pointer;
+}
+.navbar_title h1:hover{
+    color: orange;
+}
+.navbar_contents{
+    display: flex;
+    width: 70%;
+}
+.navbar_contents p{
+    text-align: start;
+    flex-grow: 1;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar_contents p:hover{
+    color: orange;
+}
+.scrolled{
+    background-color: #fff;
+    box-shadow: 0 2px 8px hsla(0, 0%, 80%, .8);
+    opacity: 0.7;
+}
+.scrolled:hover{
+    opacity: 1;
+}
+.top_title, .top_contents {
+    max-width: 50%;
+}
+.title{
+    text-align: center;
+    margin-top: 7rem;
+    font-family: GmarketSans-Bold;
+    font-size: 45px;
+    font-weight: bolder;
+    line-height: 4rem;
+}
+.title::after{
+    content: '';
+    display: block;
+    border-bottom: solid 5px orange;
+    width: 65px;
+    margin: 40px auto;
+}
+.top_contents h2{
+    font-family: Hakgyoansim-L;
+    font-size: 26px;
+    margin-bottom: 5rem;
+}
+
+.second_section {
+    display: flex;
+    flex-direction: flex;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.second_title{
+    width: 70%;
+}
+.second_title h1{
+    margin-top: 40%;
+    margin-bottom: 40%;
+    font-family: Hakgyoansim-B;
+    font-size: 52px;
+}
+.second_contents{
+    display: flex;
+    flex-direction: column;
+}
+.flex_icons{
+    display: flex;
+    flex-direction: flex;
+    margin-top: 5rem;
+}
+.icons1, .icons2, .icons3{
+    width: 33%;
+    text-align: center;
+    align-content: space-between;
+}
+.icons1 img, .icons2 img, .icons3 img{
+    width: 10%;
+}
+.flex_content{
+    display: flex;
+    flex-direction: flex;
+}
+.icons_title1, .icons_title2, .icons_title3{
+    width: 33%;
+    text-align: center;
+    align-content: space-between;
+}
+.contents_skill{
+    display: flex;
+    flex-direction: flex;
+    margin-top: 5rem;
+}
+.contents_skill h1{
+    font-size: 29px;
+    font-family: GmarketSans-Bold;
+    margin-right: 5rem;
+    margin-left: 6rem;
+}
+.skills_img{
+    margin-left: 5rem;
+    align-items: center;
+}
+.third_title{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+.third_title h1{
+    font-family: Hakgyoansim-B;
+    font-size: 46px;
+}
+.third_contents{
+    display: flex;
+    justify-content: center;
+}
+.contents_card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px hsla(0, 0%, 0%, 0.1);
+    text-align: start;
+    padding: 30px;
+    width: 85%;
+    margin-bottom: 30px;
+}
+.contents_card ul{
+    font-size: 14px;
+    padding: 20px;
+}
+.contents_card a{
+    color: #0EB4FC;
+    text-decoration: none;
+    padding: 0px;
+    padding-left: 15px;
+    border-left: 5px solid #0EB4FC;
+}
+.contents_card a:visited{
+    color: #0EB4FC;
+    text-decoration: none;
+}
+.card_date{
+    opacity: 0.7;
+    font-weight: bold;
+}
+.card_date::after{
+    content: '';
+    display: block;
+    margin-top: 10px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+.card_title{
+    font-size: 18px;
+    border: 1px solid #FF6700;
+    border-radius: 10px;
+    background-color: #FF6700;
+    color: #FFFFFF;
+    width: fit-content;
+    padding: 5px 10px;
+}
+.contents_title{
+    font-size: 20px;
+}
+.contents_skills{
+    font-size: 14px;
+    font-weight: 400;
+    background-color: rgba(249, 197, 29, .2);
+    border: 1px solid #f9c51d;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 15px;
+}
+
