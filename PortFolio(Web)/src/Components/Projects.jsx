@@ -35,11 +35,11 @@ const Projects = () => {
                 <p className='border-b border-gray-400 text-gray-400 text-sm'>2024.10 (1人 프로젝트)</p>
             </div>
             <div className='flex flex-col mt-4 mx-4'>
-                <h2 className='font-bold'>쇼핑몰 FrontEnd 부분 개발발</h2>
+                <h2 className='font-bold'>관련된 상품 띄우기, 검색, 장바구니 등 쇼핑몰이 가지고 있는 기능들을 구현한 쇼핑몰 웹사이트</h2>
                 <ul className='list-disc my-4 mx-4 text-sm lg:text-base '>
-                    <li className='text-gray-800'>FrontEnd개발을 공부하기 위하여 Youtube를 보고 개발한 첫번째 웹사이트</li>
-                    <li className='text-gray-800'>재사용을 하기 위한 컴포넌트 사용</li>
-                    <li className='text-gray-800'></li>
+                    <li className='text-gray-800'>FrontEnd 개발을 공부하기 위하여 Youtube를 보고 개발한 첫번째 웹사이트</li>
+                    <li className='text-gray-800'>쇼핑몰의 FrontEnd 구현</li>
+                    <li className='text-gray-800'>Context를 사용하여 React Router 내에서 데이터를 교환 방식 사용</li>
                 </ul>
                 <a className='border-l-4 border-blue-400 px-4 text-blue-400 text-sm mb-4' href="https://www.naver.com" target='_blink'>https://www.naver.com</a>
                 <div className='flex'>
