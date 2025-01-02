@@ -1,9 +1,25 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { FiAlignRight } from "react-icons/fi";
 
 const Navbar = () => {
 
-  const [visible, setVisible] = useState(true)
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 1024) {
+        setVisible(false);
+      } else {
+        
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    handleResize();
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const scrollToSection = (event, id) => {
     event.preventDefault();

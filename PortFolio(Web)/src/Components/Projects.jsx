@@ -17,12 +17,12 @@ const Projects = () => {
             <div className='flex flex-col mt-4 mx-4'>
                 <h2 className='font-bold'>포트폴리오 웹사이트</h2>
                 <ul className='list-disc my-4 mx-4 text-sm lg:text-base '>
-                    <li className='text-gray-800'>프로젝트들을 관리하기 위해 만든 웹사이트</li>
-                    <li className='text-gray-800'>React, HTML, Tailwind CSS, Javascript를 활용하여 웹사이트 개발</li>
+                    <li className='text-gray-800'>프로젝트들을 관리하기 위해 만든 포트폴리오용 웹사이트</li>
+                    <li className='text-gray-800'>직접 개발한 첫번째 반응형 웹사이트</li>
                 </ul>
                 <a className='border-l-4 border-blue-400 px-4 text-blue-400 text-sm mb-4' href="https://www.naver.com" target='_blink'>https://www.naver.com</a>
                 <div className='flex'>
-                    <p className='bg-lightYellow font-light text-sm border border-yellow-300 py-1 px-4 rounded-lg'>React, HTML, Tailwind CSS</p>
+                    <p className='bg-lightYellow font-light text-sm border border-yellow-300 py-1 px-4 rounded-lg'>React, Tailwind CSS, Javascipt, React Hooks</p>
                 </div>
             </div>
         </div>
@@ -35,14 +35,15 @@ const Projects = () => {
                 <p className='border-b border-gray-400 text-gray-400 text-sm'>2024.10 (1人 프로젝트)</p>
             </div>
             <div className='flex flex-col mt-4 mx-4'>
-                <h2 className='font-bold'>MERN 스택을 활용하여 개발한 쇼핑몰</h2>
+                <h2 className='font-bold'>쇼핑몰 FrontEnd 부분 개발발</h2>
                 <ul className='list-disc my-4 mx-4 text-sm lg:text-base '>
-                    <li className='text-gray-800'>FrontEnd 공부를 위하여 Youtube를 보고 개발한 웹사이트</li>
-                    <li className='text-gray-800'>...</li>
+                    <li className='text-gray-800'>FrontEnd개발을 공부하기 위하여 Youtube를 보고 개발한 첫번째 웹사이트</li>
+                    <li className='text-gray-800'>재사용을 하기 위한 컴포넌트 사용</li>
+                    <li className='text-gray-800'></li>
                 </ul>
                 <a className='border-l-4 border-blue-400 px-4 text-blue-400 text-sm mb-4' href="https://www.naver.com" target='_blink'>https://www.naver.com</a>
                 <div className='flex'>
-                    <p className='bg-lightYellow font-light text-sm border border-yellow-300 py-1 px-4 rounded-lg'>React, HTML, Tailwind CSS</p>
+                    <p className='bg-lightYellow font-light text-sm border border-yellow-300 py-1 px-4 rounded-lg'>React, Tailwind CSS, Javascipt, React Hooks</p>
                 </div>
             </div>
         </div>
