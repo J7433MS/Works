@@ -41,7 +41,7 @@ const Projects = () => {
                     <li className='text-gray-800'>쇼핑몰의 FrontEnd 구현</li>
                     <li className='text-gray-800'>Context를 사용하여 React Router 내에서 데이터를 교환 방식 사용</li>
                 </ul>
-                <a className='border-l-4 border-blue-400 px-4 text-blue-400 text-sm mb-4' href="https://www.naver.com" target='_blink'>https://www.naver.com</a>
+                <a className='border-l-4 border-blue-400 px-4 text-blue-400 text-sm mb-4' href="https://jms-market-app.netlify.app" target='_blink'>https://jms-market-app.netlify.app</a>
                 <div className='flex'>
                     <p className='bg-lightYellow font-light text-sm border border-yellow-300 py-1 px-4 rounded-lg'>React, Tailwind CSS, Javascipt, React Hooks</p>
                 </div>
